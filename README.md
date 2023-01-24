@@ -25,5 +25,7 @@ Predicting the possible Customer Life Time Value, given features of a customer i
       c. Defining a function that would evaluate the best possible Model out of LinearRegression,Lasso,Ridge,RandomForest,DecisionTree,AdaBoost,GradientBoost,CatBoost.
       d. The GradientBoost Regressor gives the best r2 score. The next challenge is to improve the data for better r2 scores.
  
- *** 
+ *** Feature Engineering
+ 
+    a. Creating a new feature 'cust_type' that is created using clustering similar type of customers into two clusters based on the existing features.
 
