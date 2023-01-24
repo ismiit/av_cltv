@@ -18,6 +18,7 @@ Predicting the possible Customer Life Time Value, given features of a customer i
        b. While for variables I used basic Binary Encoding replacing a certain category with 1 while the other with 0.
 
 * **Feature Importance** : On evaluating the feature importance , it was found that num_policies and claim amount were the most effectable features.
+* 
 | Feature | Importance |
 | --------------- | --------------- |
 |num_policies  | 0.785331 | 
