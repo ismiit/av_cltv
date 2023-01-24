@@ -19,11 +19,11 @@ Predicting the possible Customer Life Time Value, given features of a customer i
 
 * **Feature Importance** : On evaluating the feature importance , it was found that num_policies and claim amount were the most effectable features.
 
-| Feature | Importance |
-| --------------- | --------------- |
-|num_policies  | 0.785331 | 
-| claim_amount | 0.136313 |
-| area  | 0.025688 |
+                    | Feature | Importance |
+                    | --------------- | --------------- |
+                    |num_policies  | 0.785331 | 
+                    | claim_amount | 0.136313 |
+                    | area  | 0.025688 |
              
 * **Model Making** : 
 
