@@ -34,5 +34,28 @@ Predicting the possible Customer Life Time Value, given features of a customer i
  
  * **Feature Engineering:**
  
-    a. Creating a new feature 'cust_type' that is created using clustering similar type of customers into two clusters based on the existing features.
+       a. Creating a new feature 'cust_type' that is created using clustering similar type of customers into two clusters based on the existing features.
+       b. Converting 'Vintage' feature into a binary categorical variable using python comprehension.
+       
+ * **Outliers Removal:**
+ 
+       a. Since the column 'claim_amount was right skewed, detected outliers in the datapoints.
+       b. Capped the outliers using quantile method.
+       c. Got slightly better results.
+   
+      
+  * **Cross Validation :**
+        
+        a. Created a parameter grid on 'n_estimators','max_depth','learning_rate'
+        b. Applied GridSearchCV to cross validate the results.
+        c. Found the best parameters and applied on the model to get better r2_score.
+   
+  Difficulties and Improvements :
+  
+     1. Since most of the features were categorical, though grouping similar data points was easy, understanding the trend in data had become difficult.
+     2. Using wider range of hyperparameter values for better hyperparameter tuning.
+     3. Clustering customers into similar groups depending upon important features could have improved the r2_score.
+     4. Outlier removal could have had a positive effect in understanding the trend better.
+     
+
 
